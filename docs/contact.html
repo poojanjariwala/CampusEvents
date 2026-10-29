@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | CampusEvents</title>
+<meta name="description" content="Browse and register for technical, cultural and sports events at the Department of Information Technology.">
+<link rel="stylesheet" href="/CampusEvents/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">CE</span>
+      <span class="brand-text"><strong>CampusEvents</strong><small>Department of Information Technology</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
+    <nav id="main-nav" class="main-nav">
+      <a href="index.html" class="">Home</a>
+      <a href="events.html" class="">Events</a>
+      <a href="about.html" class="">About</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="#" class="nav-admin">Admin</a>
+    </nav>
+  </div>
+</header>
+<main>
+    <section class="page-head">
+  <div class="wrap">
+    <h1>Contact the organisers</h1>
+    <p class="muted">Questions about an event, a registration or hosting your own? Write to us.</p>
+  </div>
+</section>
+
+<section class="section tight">
+  <div class="wrap detail-grid">
+    <form class="gform" method="post" action="#" novalidate id="contact-form">
+      <input type="hidden" name="_token" value="Wvha67aFMOt1LNlSpBfhwJBeym5KyVm38oeUrq9u" autocomplete="off">      <div class="gform-head"><h2>Send a message</h2><p>Fields marked with a red asterisk are required.</p></div>
+
+      <div class="q ">
+        <label for="c-name">Name <i>*</i></label>
+        <input id="c-name" name="name" type="text" value="" required>
+        <small class="err"></small>
+      </div>
+      <div class="q ">
+        <label for="c-email">Email <i>*</i></label>
+        <input id="c-email" name="email" type="email" value="" required>
+        <small class="err"></small>
+      </div>
+      <div class="q ">
+        <label for="c-subject">Subject <i>*</i></label>
+        <input id="c-subject" name="subject" type="text" value="" required>
+        <small class="err"></small>
+      </div>
+      <div class="q ">
+        <label for="c-message">Message <i>*</i></label>
+        <textarea id="c-message" name="message" rows="5" required></textarea>
+        <small class="err"></small>
+      </div>
+      <div class="gform-foot"><button class="btn btn-primary" type="submit">Send message</button></div>
+    </form>
+
+    <aside>
+      <div class="card">
+        <h2>Event desk</h2>
+        <dl class="facts">
+          <div><dt>Location</dt><dd>IT Department office, Block B, 2nd floor</dd></div>
+          <div><dt>Email</dt><dd>events&#64;campusevents.local</dd></div>
+          <div><dt>Hours</dt><dd>Mon&ndash;Sat, 9:30 AM &ndash; 4:30 PM</dd></div>
+        </dl>
+      </div>
+      <div class="card">
+        <h2>Want to host an event?</h2>
+        <p>Faculty coordinators and class representatives can request a slot. Mention the date, expected turnout and venue in your message.</p>
+      </div>
+    </aside>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <h4>CampusEvents</h4>
+      <p>One place for every technical, cultural and sports event on campus. Built for the WT SL component, IT-25 (A &amp; B).</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="events.html">All events</a></li>
+        <li><a href="events.html">Technical</a></li>
+        <li><a href="events.html">Cultural</a></li>
+        <li><a href="/CampusEvents/feed.xml">XML feed</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Get in touch</h4>
+      <ul>
+        <li>Department of Information Technology</li>
+        <li>events&#64;campusevents.local</li>
+        <li>Mon&ndash;Sat, 9:30 AM &ndash; 4:30 PM</li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">&copy; 2026 CampusEvents &middot; IT-25 WT_SL Component</div>
+</footer>
+<script src="/CampusEvents/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="events.xsl"?>
+<feed generated="2026-10-29T22:31:08+05:30" base="https://poojanjariwala.github.io/CampusEvents/">
+  <event id="7" status="completed" url="https://poojanjariwala.github.io/CampusEvents/events/7">
+    <title>Freshers' Welcome 2026</title>
+    <category>Cultural</category>
+    <date>2026-10-02</date>
+    <time>15:00</time>
+    <venue>Main Auditorium</venue>
+    <organizer>Cultural Committee</organizer>
+    <seats_left>250</seats_left>
+  </event>
+  <event id="5" status="open" url="https://poojanjariwala.github.io/CampusEvents/events/5">
+    <title>Placement Readiness Seminar</title>
+    <category>Seminar</category>
+    <date>2026-11-09</date>
+    <time>11:00</time>
+    <venue>Room 204</venue>
+    <organizer>Training &amp; Placement Cell</organizer>
+    <seats_left>120</seats_left>
+  </event>
+  <event id="2" status="open" url="https://poojanjariwala.github.io/CampusEvents/events/2">
+    <title>Laravel Bootcamp: Routes to Blade</title>
+    <category>Workshop</category>
+    <date>2026-11-13</date>
+    <time>10:00</time>
+    <venue>Seminar Hall, 1st Floor</venue>
+    <organizer>Prof. R. Mehta</organizer>
+    <seats_left>59</seats_left>
+  </event>
+  <event id="6" status="open" url="https://poojanjariwala.github.io/CampusEvents/events/6">
+    <title>XML &amp; Data Exchange Quiz</title>
+    <category>Technical</category>
+    <date>2026-11-19</date>
+    <time>14:00</time>
+    <venue>Room 101</venue>
+    <organizer>Prof. S. Desai</organizer>
+    <seats_left>100</seats_left>
+  </event>
+  <event id="1" status="open" url="https://poojanjariwala.github.io/CampusEvents/events/1">
+    <title>Web Wizards 24-Hour Hackathon</title>
+    <category>Technical</category>
+    <date>2026-11-27</date>
+    <time>09:00</time>
+    <venue>IT Lab 3, Block B</venue>
+    <organizer>IT Students Association</organizer>
+    <seats_left>88</seats_left>
+  </event>
+  <event id="4" status="open" url="https://poojanjariwala.github.io/CampusEvents/events/4">
+    <title>Inter-Class Cricket Cup</title>
+    <category>Sports</category>
+    <date>2026-12-04</date>
+    <time>08:00</time>
+    <venue>College Ground</venue>
+    <organizer>Sports Committee</organizer>
+    <seats_left>159</seats_left>
+  </event>
+  <event id="3" status="open" url="https://poojanjariwala.github.io/CampusEvents/events/3">
+    <title>Rangotsav: Annual Cultural Night</title>
+    <category>Cultural</category>
+    <date>2026-12-25</date>
+    <time>17:00</time>
+    <venue>Main Auditorium</venue>
+    <organizer>Cultural Committee</organizer>
+    <seats_left>399</seats_left>
+  </event>
+</feed>

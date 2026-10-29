@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Events | CampusEvents</title>
+<meta name="description" content="Browse and register for technical, cultural and sports events at the Department of Information Technology.">
+<link rel="stylesheet" href="/CampusEvents/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">CE</span>
+      <span class="brand-text"><strong>CampusEvents</strong><small>Department of Information Technology</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
+    <nav id="main-nav" class="main-nav">
+      <a href="index.html" class="">Home</a>
+      <a href="events.html" class="active">Events</a>
+      <a href="about.html" class="">About</a>
+      <a href="contact.html" class="">Contact</a>
+      <a href="#" class="nav-admin">Admin</a>
+    </nav>
+  </div>
+</header>
+<main>
+    <section class="page-head">
+  <div class="wrap">
+    <h1>All events</h1>
+    <p class="muted">Showing 6 events.</p>
+  </div>
+</section>
+
+<section class="section tight">
+  <div class="wrap">
+    <form class="toolbar" method="get" action="#">
+      <input type="hidden" name="show" value="upcoming">
+            <label class="sr-only" for="q">Search events</label>
+      <input id="q" type="search" name="q" value="" placeholder="Search by name, venue or organiser">
+      <button class="btn btn-primary" type="submit">Search</button>
+    </form>
+
+    <div class="chips">
+      <a class="chip on" href="events.html">All</a>
+              <a class="chip " href="events.html">Technical</a>
+              <a class="chip " href="events.html">Workshop</a>
+              <a class="chip " href="events.html">Seminar</a>
+              <a class="chip " href="events.html">Cultural</a>
+              <a class="chip " href="events.html">Sports</a>
+            <span class="chip-gap"></span>
+      <a class="chip on" href="events.html">Upcoming</a>
+      <a class="chip " href="events.html">Past</a>
+      <a class="chip " href="events.html">All dates</a>
+    </div>
+
+    <div class="grid-3" id="event-grid">
+              <article class="event-card" data-search="placement readiness seminar room 204 training &amp; placement cell seminar">
+  <div class="date-block">
+    <span class="d">09</span>
+    <span class="m">Nov</span>
+    <span class="y">2026</span>
+  </div>
+  <div class="event-body">
+    <span class="pill pill-seminar">Seminar</span>
+    <h3><a href="event.html">Placement Readiness Seminar</a></h3>
+    <ul class="meta">
+      <li>11:00 AM</li>
+      <li>Room 204</li>
+      <li>Free entry</li>
+    </ul>
+    <div class="card-foot">
+              <span class="seats">120 seats left</span>
+            <a class="link-arrow" href="event.html">Details &rarr;</a>
+    </div>
+  </div>
+</article>
+              <article class="event-card" data-search="laravel bootcamp: routes to blade seminar hall, 1st floor prof. r. mehta workshop">
+  <div class="date-block">
+    <span class="d">13</span>
+    <span class="m">Nov</span>
+    <span class="y">2026</span>
+  </div>
+  <div class="event-body">
+    <span class="pill pill-workshop">Workshop</span>
+    <h3><a href="event.html">Laravel Bootcamp: Routes to Blade</a></h3>
+    <ul class="meta">
+      <li>10:00 AM</li>
+      <li>Seminar Hall, 1st Floor</li>
+      <li>Free entry</li>
+    </ul>
+    <div class="card-foot">
+              <span class="seats">59 seats left</span>
+            <a class="link-arrow" href="event.html">Details &rarr;</a>
+    </div>
+  </div>
+</article>
+              <article class="event-card" data-search="xml &amp; data exchange quiz room 101 prof. s. desai technical">
+  <div class="date-block">
+    <span class="d">19</span>
+    <span class="m">Nov</span>
+    <span class="y">2026</span>
+  </div>
+  <div class="event-body">
+    <span class="pill pill-technical">Technical</span>
+    <h3><a href="event.html">XML &amp; Data Exchange Quiz</a></h3>
+    <ul class="meta">
+      <li>2:00 PM</li>
+      <li>Room 101</li>
+      <li>Free entry</li>
+    </ul>
+    <div class="card-foot">
+              <span class="seats">100 seats left</span>
+            <a class="link-arrow" href="event.html">Details &rarr;</a>
+    </div>
+  </div>
+</article>
+              <article class="event-card" data-search="web wizards 24-hour hackathon it lab 3, block b it students association technical">
+  <div class="date-block">
+    <span class="d">27</span>
+    <span class="m">Nov</span>
+    <span class="y">2026</span>
+  </div>
+  <div class="event-body">
+    <span class="pill pill-technical">Technical</span>
+    <h3><a href="event.html">Web Wizards 24-Hour Hackathon</a></h3>
+    <ul class="meta">
+      <li>9:00 AM</li>
+      <li>IT Lab 3, Block B</li>
+      <li>Rs. 100</li>
+    </ul>
+    <div class="card-foot">
+              <span class="seats">88 seats left</span>
+            <a class="link-arrow" href="event.html">Details &rarr;</a>
+    </div>
+  </div>
+</article>
+              <article class="event-card" data-search="inter-class cricket cup college ground sports committee sports">
+  <div class="date-block">
+    <span class="d">04</span>
+    <span class="m">Dec</span>
+    <span class="y">2026</span>
+  </div>
+  <div class="event-body">
+    <span class="pill pill-sports">Sports</span>
+    <h3><a href="event.html">Inter-Class Cricket Cup</a></h3>
+    <ul class="meta">
+      <li>8:00 AM</li>
+      <li>College Ground</li>
+      <li>Rs. 50</li>
+    </ul>
+    <div class="card-foot">
+              <span class="seats">159 seats left</span>
+            <a class="link-arrow" href="event.html">Details &rarr;</a>
+    </div>
+  </div>
+</article>
+              <article class="event-card" data-search="rangotsav: annual cultural night main auditorium cultural committee cultural">
+  <div class="date-block">
+    <span class="d">25</span>
+    <span class="m">Dec</span>
+    <span class="y">2026</span>
+  </div>
+  <div class="event-body">
+    <span class="pill pill-cultural">Cultural</span>
+    <h3><a href="event.html">Rangotsav: Annual Cultural Night</a></h3>
+    <ul class="meta">
+      <li>5:00 PM</li>
+      <li>Main Auditorium</li>
+      <li>Free entry</li>
+    </ul>
+    <div class="card-foot">
+              <span class="seats">399 seats left</span>
+            <a class="link-arrow" href="event.html">Details &rarr;</a>
+    </div>
+  </div>
+</article>
+          </div>
+    <p class="empty" id="no-results"  hidden >No events match your filters. <a href="events.html">Clear filters</a></p>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <h4>CampusEvents</h4>
+      <p>One place for every technical, cultural and sports event on campus. Built for the WT SL component, IT-25 (A &amp; B).</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="events.html">All events</a></li>
+        <li><a href="events.html">Technical</a></li>
+        <li><a href="events.html">Cultural</a></li>
+        <li><a href="/CampusEvents/feed.xml">XML feed</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Get in touch</h4>
+      <ul>
+        <li>Department of Information Technology</li>
+        <li>events&#64;campusevents.local</li>
+        <li>Mon&ndash;Sat, 9:30 AM &ndash; 4:30 PM</li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">&copy; 2026 CampusEvents &middot; IT-25 WT_SL Component</div>
+</footer>
+<script src="/CampusEvents/js/main.js"></script>
+</body>
+</html>

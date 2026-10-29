@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About | CampusEvents</title>
+<meta name="description" content="Browse and register for technical, cultural and sports events at the Department of Information Technology.">
+<link rel="stylesheet" href="/CampusEvents/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">CE</span>
+      <span class="brand-text"><strong>CampusEvents</strong><small>Department of Information Technology</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
+    <nav id="main-nav" class="main-nav">
+      <a href="index.html" class="">Home</a>
+      <a href="events.html" class="">Events</a>
+      <a href="about.html" class="active">About</a>
+      <a href="contact.html" class="">Contact</a>
+      <a href="#" class="nav-admin">Admin</a>
+    </nav>
+  </div>
+</header>
+<main>
+    <section class="page-head">
+  <div class="wrap">
+    <h1>About CampusEvents</h1>
+    <p class="muted">A college event management site built for the Web Technology self-learning component, IT-25 (A &amp; B).</p>
+  </div>
+</section>
+
+<section class="section tight">
+  <div class="wrap two-col">
+    <div class="card">
+      <h2>Why this exists</h2>
+      <p>Event notices on the department WhatsApp groups get buried within an hour. Registrations happen on three different Google Forms and nobody knows how many seats are left until the day itself.</p>
+      <p>CampusEvents puts the whole calendar on one page, tracks seats as people register, and gives organisers a single admin panel to manage events and export attendee lists.</p>
+    </div>
+    <div class="card">
+      <h2>What students can do</h2>
+      <ul class="ticks">
+        <li>Browse upcoming and past events by category</li>
+        <li>Search by name, venue or organiser</li>
+        <li>See live seat availability</li>
+        <li>Register once and get a printable reference</li>
+        <li>Subscribe to the XML event feed</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="card">
+      <h2>Syllabus topics used in this project</h2>
+      <table class="table">
+        <thead><tr><th>Topic</th><th>Where it is used</th></tr></thead>
+        <tbody>
+          <tr><td>HTML</td><td>Semantic Blade templates: header, main, section, article, form, fieldset, dl</td></tr>
+          <tr><td>CSS</td><td>Custom properties, grid and flexbox, responsive breakpoints, print styles for the ticket</td></tr>
+          <tr><td>JavaScript</td><td>Live event search, form validation, countdown timer, animated counters, mobile menu</td></tr>
+          <tr><td>PHP</td><td>Object-oriented models, controllers, form requests, sessions, CSV export</td></tr>
+          <tr><td>Laravel</td><td>Routing, controllers, Blade layouts and components, Eloquent models, migrations, seeders, form request validation, middleware, authentication</td></tr>
+          <tr><td>XML</td><td>The <a href="/CampusEvents/feed.xml">public event feed</a> is generated with PHP's DOM and displayed through an XSLT stylesheet</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <h4>CampusEvents</h4>
+      <p>One place for every technical, cultural and sports event on campus. Built for the WT SL component, IT-25 (A &amp; B).</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="events.html">All events</a></li>
+        <li><a href="events.html">Technical</a></li>
+        <li><a href="events.html">Cultural</a></li>
+        <li><a href="/CampusEvents/feed.xml">XML feed</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Get in touch</h4>
+      <ul>
+        <li>Department of Information Technology</li>
+        <li>events&#64;campusevents.local</li>
+        <li>Mon&ndash;Sat, 9:30 AM &ndash; 4:30 PM</li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">&copy; 2026 CampusEvents &middot; IT-25 WT_SL Component</div>
+</footer>
+<script src="/CampusEvents/js/main.js"></script>
+</body>
+</html>

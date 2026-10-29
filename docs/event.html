@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Web Wizards 24-Hour Hackathon | CampusEvents</title>
+<meta name="description" content="Browse and register for technical, cultural and sports events at the Department of Information Technology.">
+<link rel="stylesheet" href="/CampusEvents/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">CE</span>
+      <span class="brand-text"><strong>CampusEvents</strong><small>Department of Information Technology</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
+    <nav id="main-nav" class="main-nav">
+      <a href="index.html" class="">Home</a>
+      <a href="events.html" class="active">Events</a>
+      <a href="about.html" class="">About</a>
+      <a href="contact.html" class="">Contact</a>
+      <a href="#" class="nav-admin">Admin</a>
+    </nav>
+  </div>
+</header>
+<main>
+    <section class="page-head">
+  <div class="wrap">
+    <p class="crumbs"><a href="index.html">Home</a> / <a href="events.html">Events</a> / Web Wizards 24-Hour Hackathon</p>
+    <span class="pill pill-technical">Technical</span>
+    <h1>Web Wizards 24-Hour Hackathon</h1>
+  </div>
+</section>
+
+<section class="section tight">
+  <div class="wrap detail-grid">
+    <div>
+      <div class="card">
+        <h2>About this event</h2>
+                  <p>Teams of three build a working website from scratch in 24 hours using HTML, CSS, JavaScript, PHP and Laravel. A problem statement is revealed at the start and mentors from the faculty are available throughout.</p>
+                  <p>Judging covers design quality, working features, code cleanliness and the final demo. Bring your own laptop and charger; snacks and tea are provided overnight.</p>
+                <dl class="facts">
+          <div><dt>Date</dt><dd>Friday, 27 November 2026</dd></div>
+          <div><dt>Time</dt><dd>9:00 AM</dd></div>
+          <div><dt>Venue</dt><dd>IT Lab 3, Block B</dd></div>
+          <div><dt>Organised by</dt><dd>IT Students Association</dd></div>
+          <div><dt>Entry</dt><dd>Rs. 100 per participant</dd></div>
+        </dl>
+      </div>
+
+      <div class="card">
+        <h2>Seat availability</h2>
+        <div class="meter" role="progressbar" aria-valuemin="0" aria-valuemax="90" aria-valuenow="2">
+          <span style="width: 2%"></span>
+        </div>
+        <p class="muted">2 of 90 seats booked &middot; <strong>88 left</strong></p>
+      </div>
+    </div>
+
+    <aside>
+              <form class="gform" method="post" action="#" novalidate id="reg-form">
+          <input type="hidden" name="_token" value="6U19rQlU2LSgmkAaecVLJbDJQCCqKubb2qUmApcC" autocomplete="off">          <div class="gform-head">
+            <h2>Register for this event</h2>
+            <p>Fill every field marked with a red asterisk.</p>
+          </div>
+          
+          <div class="q ">
+            <label for="name">Full name <i>*</i></label>
+            <input id="name" name="name" type="text" autocomplete="name" value="" required>
+            <small class="err"></small>
+          </div>
+
+          <div class="q ">
+            <label for="email">Email <i>*</i></label>
+            <input id="email" name="email" type="email" autocomplete="email" value="" required>
+            <small class="err"></small>
+          </div>
+
+          <div class="q ">
+            <label for="enrollment">Enrolment number <i>*</i></label>
+            <input id="enrollment" name="enrollment" type="text" value="" required>
+            <small class="err"></small>
+          </div>
+
+          <div class="q ">
+            <label for="phone">Mobile number <i>*</i></label>
+            <input id="phone" name="phone" type="tel" inputmode="numeric" maxlength="10" autocomplete="tel" value="" required>
+            <small class="err"></small>
+          </div>
+
+          <fieldset class="q ">
+            <legend>Class <i>*</i></legend>
+                          <label class="radio">
+                <input type="radio" name="class_name" value="IT25 A (Batch A)" >
+                <span class="dot"></span>IT25 A (Batch A)
+              </label>
+                          <label class="radio">
+                <input type="radio" name="class_name" value="IT25 A (Batch B)" >
+                <span class="dot"></span>IT25 A (Batch B)
+              </label>
+                          <label class="radio">
+                <input type="radio" name="class_name" value="IT25 B (Batch A)" >
+                <span class="dot"></span>IT25 B (Batch A)
+              </label>
+                          <label class="radio">
+                <input type="radio" name="class_name" value="IT25 B (Batch B)" >
+                <span class="dot"></span>IT25 B (Batch B)
+              </label>
+                        <small class="err"></small>
+          </fieldset>
+
+          <div class="q ">
+            <label class="check">
+              <input type="checkbox" name="consent" value="1" >
+              <span class="box"></span>
+              <span>I confirm the details above are correct and will carry my college ID card.</span>
+            </label>
+            <small class="err"></small>
+          </div>
+
+          <div class="gform-foot">
+            <button class="btn btn-primary" type="submit">Submit registration</button>
+            <button class="btn-text" type="reset">Clear form</button>
+          </div>
+        </form>
+          </aside>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <h4>CampusEvents</h4>
+      <p>One place for every technical, cultural and sports event on campus. Built for the WT SL component, IT-25 (A &amp; B).</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="events.html">All events</a></li>
+        <li><a href="events.html">Technical</a></li>
+        <li><a href="events.html">Cultural</a></li>
+        <li><a href="/CampusEvents/feed.xml">XML feed</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Get in touch</h4>
+      <ul>
+        <li>Department of Information Technology</li>
+        <li>events&#64;campusevents.local</li>
+        <li>Mon&ndash;Sat, 9:30 AM &ndash; 4:30 PM</li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">&copy; 2026 CampusEvents &middot; IT-25 WT_SL Component</div>
+</footer>
+<script src="/CampusEvents/js/main.js"></script>
+</body>
+</html>
