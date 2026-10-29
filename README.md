@@ -7,6 +7,15 @@ Students browse upcoming events, filter/search them, and register for a seat wit
 ticket. Admins manage events, registrations (with CSV export) and contact messages from a
 protected panel.
 
+## Live demo (GitHub Pages)
+
+**https://poojanjariwala.github.io/CampusEvents/**
+
+GitHub Pages only serves static files, so that link is a pre-rendered snapshot of the site
+(`docs/` folder: home, events, event detail, about, contact plus the XML/XSL feed) generated
+from the running app. The forms and admin panel need the real server — run it locally with the
+steps below to use them.
+
 ## Features
 
 - Event list with category filter, upcoming/past/all toggle, server-side search plus live JS search
